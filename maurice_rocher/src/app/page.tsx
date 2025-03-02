@@ -6,10 +6,10 @@ export default function Home() {
     <main className="relative min-h-screen bg-black text-white">
       <div className="flex min-h-screen flex-col">
         {/* Main content area */}
-        <div className="flex-1 px-4">
-          <div className="relative mx-auto aspect-[16/9] max-w-4xl pt-20">
+        <div className="flex flex-1 items-center justify-center px-4">
+          <div className="relative h-[80vh] w-[60vw]">
             <Image
-              src="/placeholder.svg?height=800&width=1200"
+              src="/rubriques/ten/29_9_ANGE_NOIR.jpg"
               alt="Featured Artwork"
               fill
               className="object-contain"
@@ -24,4 +24,8 @@ export default function Home() {
     </main>
   )
 }
+
+
+
+
 

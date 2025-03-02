@@ -5,63 +5,53 @@ import { MainNav } from "@/components/main-nav"
 const artworks = [
   {
     id: 1,
-    title: "Sunrise Melody",
-    description: "A vibrant exploration of color and light.",
-    image: "/Carti.jpeg",
+    title: "Supplicié-vitrail	et	Vitraux",
+    image: "/rubriques/one/1SUPPLICIE.jpg",
   },
   {
     id: 2,
-    title: "Urban Rhythms",
-    description: "Capturing the pulse of city life through abstract forms.",
-    image: "/spike.jpg",
+    title: "Période	Brune",
+    image: "/rubriques/two/3_2ETUDE.jpg",
   },
   {
     id: 3,
-    title: "Serene Reflections",
-    description: "A meditative piece inspired by still waters.",
-    image: "/Carti.jpeg",
+    title: "Du Bouquet Rose au Rouge",
+    image: "/rubriques/three/8_6.JPG",
   },
   {
     id: 4,
-    title: "Fractured Dreams",
-    description: "An introspective journey through fragmented memories.",
-    image: "/spike.jpg",
+    title: "La	Révolte...	aux	Eglises-femme",
+    image: "/rubriques/four/11_0EGLISE.jpg",
   },
   {
     id: 5,
-    title: "Cosmic Dance",
-    description: "Exploring the movement of celestial bodies.",
-    image: "/Carti.jpeg",
+    title: "Notables",
+    image: "/rubriques/five/14_3JUGE.jpg",
   },
   {
     id: 6,
-    title: "Whispers of Nature",
-    description: "Delicate forms inspired by organic structures.",
-    image: "/spike.jpg",
+    title: "Visages	vers	le	Ciel",
+    image: "/rubriques/six/17_3MONTAGE.jpg",
   },
   {
     id: 7,
-    title: "Temporal Shift",
-    description: "A visual representation of the passage of time.",
-    image: "/Carti.jpeg",
+    title: "Masques",
+    image: "/rubriques/seven/20_1FEMME.jpg",
   },
   {
     id: 8,
-    title: "Harmonic Dissonance",
-    description: "Balancing order and chaos in visual composition.",
-    image: "/spike.jpg",
+    title: "Couples	de	la	Passion		Femmes	aux	Seins",
+    image: "/rubriques/eight/24_2COUPLE.jpg",
   },
   {
     id: 9,
-    title: "Ethereal Boundaries",
-    description: "Exploring the liminal spaces between reality and imagination.",
-    image: "/Carti.jpeg",
+    title: "Suppliciés	'Je	les	peignais	en	alternance	avec	les	Couples.'	MR",
+    image: "/rubriques/nine/26_2COUPLE.jpg",
   },
   {
     id: 10,
-    title: "Chromatic Odyssey",
-    description: "A journey through the spectrum of human emotion.",
-    image: "/spike.jpg",
+    title: "Suppliciées	Ange	Noir	Couples	des	Cendres...	au	Supplicié-vitrail",
+    image: "/rubriques/ten/29_1FEMME.jpg",
   },
 ]
 
@@ -84,7 +74,6 @@ export default function OeuvrePage() {
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
                   <h2 className="text-lg font-semibold">{artwork.title}</h2>
-                  <p className="mt-1 text-sm text-gray-300">{artwork.description}</p>
                 </div>
               </div>
             </Link>
