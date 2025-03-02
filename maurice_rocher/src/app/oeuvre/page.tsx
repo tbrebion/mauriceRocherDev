@@ -11,7 +11,7 @@ const artworks = [
   {
     id: 2,
     title: "Période	Brune",
-    image: "/rubriques/two/3_2ETUDE.jpg",
+    image: "/rubriques/two/3_2.jpg",
   },
   {
     id: 3,
@@ -21,12 +21,12 @@ const artworks = [
   {
     id: 4,
     title: "La	Révolte...	aux	Eglises-femme",
-    image: "/rubriques/four/11_0EGLISE.jpg",
+    image: "/rubriques/four/11_0.jpg",
   },
   {
     id: 5,
     title: "Notables",
-    image: "/rubriques/five/14_3JUGE.jpg",
+    image: "/rubriques/five/14_3.jpg",
   },
   {
     id: 6,
