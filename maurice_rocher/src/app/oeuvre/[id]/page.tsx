@@ -1000,7 +1000,172 @@ const artworksPerSection = {
       image: "/rubriques/five/17_2.JPG",
     },
   ],
+  "6": [
+    {
+      id: 1,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/17_3.jpg",
+    },
+    {
+      id: 2,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/17_4.jpg",
+    },
+    {
+      id: 3,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/17_5.jpg",
+    },
+    {
+      id: 4,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/17_6.JPG",
+    },
+    {
+      id: 5,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/17_7.jpg",
+    },
+    {
+      id: 6,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/17_8.JPG",
+    },
+    {
+      id: 7,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/17_9.jpg",
+    },
+    {
+      id: 8,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/18_0.JPG",
+    },
+    {
+      id: 9,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/18_1.JPG",
+    },
+    {
+      id: 10,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/18_2.JPG",
+    },
+    {
+      id: 11,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/18_3.JPG",
+    },
+    {
+      id: 12,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/18_4.JPG",
+    },
+    {
+      id: 13,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/18_5.JPG",
+    },
+    {
+      id: 14,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/18_6.JPG",
+    },
+    {
+      id: 15,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/18_7.jpg",
+    },
+    {
+      id: 16,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/18_8.JPG",
+    },
+    {
+      id: 17,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/18_9.JPG",
+    },
+    {
+      id: 18,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/19_0.JPG",
+    },
+    {
+      id: 19,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/19_1.JPG",
+    },
+    {
+      id: 20,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/19_2.JPG",
+    },
+    {
+      id: 21,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/19_3.JPG",
+    },
+    {
+      id: 22,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/19_4.JPG",
+    },
+    {
+      id: 23,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/19_5.jpg",
+    },
+    {
+      id: 24,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/19_6.JPG",
+    },
+    {
+      id: 25,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/19_7.jpg",
+    },
+    {
+      id: 26,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/19_8.jpg",
+    },
+    {
+      id: 27,
+      title: "Color Fields",
+      description: "Experiments in pure color",
+      image: "/rubriques/six/19_9.png",
+    },
+  ],
 }
+
 export default function SectionPage({ params }: { params: { id: string } }) {
   const section = sections.find((s) => s.id === Number.parseInt(params.id))
   const artworks = artworksPerSection[params.id as keyof typeof artworksPerSection] || []

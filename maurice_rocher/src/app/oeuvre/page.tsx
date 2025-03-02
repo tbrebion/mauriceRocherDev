@@ -31,7 +31,7 @@ const artworks = [
   {
     id: 6,
     title: "Visages	vers	le	Ciel",
-    image: "/rubriques/six/17_3MONTAGE.jpg",
+    image: "/rubriques/six/17_3.jpg",
   },
   {
     id: 7,
