@@ -9,7 +9,7 @@ export default function Home() {
         <div className="flex flex-1 items-center justify-center px-4">
           <div className="relative h-[80vh] w-[60vw]">
             <Image
-              src="/rubriques/ten/29_9_ANGE_NOIR.jpg"
+              src="/rubriques/ten/29_9.jpg"
               alt="Featured Artwork"
               fill
               className="object-contain"

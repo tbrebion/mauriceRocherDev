@@ -46,12 +46,12 @@ const artworks = [
   {
     id: 9,
     title: "Suppliciés	'Je	les	peignais	en	alternance	avec	les	Couples.'	MR",
-    image: "/rubriques/nine/26_2COUPLE.jpg",
+    image: "/rubriques/nine/26_2.jpg",
   },
   {
     id: 10,
     title: "Suppliciées	Ange	Noir	Couples	des	Cendres...	au	Supplicié-vitrail",
-    image: "/rubriques/ten/29_1FEMME.jpg",
+    image: "/rubriques/ten/29_1.jpg",
   },
 ]
 
