@@ -36,12 +36,12 @@ const artworks = [
   {
     id: 7,
     title: "Masques",
-    image: "/rubriques/seven/20_1FEMME.jpg",
+    image: "/rubriques/seven/20_1.jpg",
   },
   {
     id: 8,
     title: "Couples	de	la	Passion		Femmes	aux	Seins",
-    image: "/rubriques/eight/24_2COUPLE.jpg",
+    image: "/rubriques/eight/24_2.jpg",
   },
   {
     id: 9,
