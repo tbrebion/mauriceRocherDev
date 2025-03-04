@@ -31,9 +31,9 @@ export function Gallery({ artworks }: GalleryProps) {
               fill
               className="object-cover duration-300 ease-in-out transition-opacity hover:opacity-30"
             />
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              <h2 className="text-lg font-semibold">{artwork.title}</h2>
-              <p className="mt-1 text-sm text-gray-300">{artwork.description}</p>
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100 max-h-[50%] overflow-hidden">
+              <h2 className="text-lg font-semibold truncate">{artwork.title}</h2>
+              <p className="mt-1 text-sm text-gray-300 line-clamp-3">{artwork.description}</p>
             </div>
           </div>
         ))}
