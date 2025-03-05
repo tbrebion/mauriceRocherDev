@@ -1989,7 +1989,6 @@ export default function SectionPage({ params }: { params: { id: string } }) {
             ← Back to Oeuvre
           </Link>
           <h1 className="mb-2 text-4xl font-light">{section.title}</h1>
-          <p className="text-lg text-gray-300">{section.description}</p>
         </div>
         <Gallery artworks={artworks} />
       </div>
