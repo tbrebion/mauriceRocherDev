@@ -1983,16 +1983,16 @@ export default function SectionPage({ params }: { params: { id: string } }) {
 
   return (
     <main className="min-h-screen bg-black text-white">
-      <div className="pb-24">
+      <div className="pt-24">
         <div className="mb-8 p-8">
           <Link href="/oeuvre" className="mb-4 inline-block text-sm text-gray-400 hover:text-white">
-            ← Back to Oeuvre
+            ← Oeuvre
           </Link>
           <h1 className="mb-2 text-4xl font-light">{section.title}</h1>
         </div>
         <Gallery artworks={artworks} />
       </div>
-      <MainNav className="fixed bottom-0 left-0 right-0" />
+      <MainNav className="fixed top-0 left-0 right-0" />
     </main>
   )
 }

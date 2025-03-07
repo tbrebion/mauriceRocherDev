@@ -5,52 +5,52 @@ import { MainNav } from "@/components/main-nav"
 const artworks = [
   {
     id: 1,
-    title: "Supplicié-vitrail	et	Vitraux",
+    title: "1 - Supplicié-vitrail	et	Vitraux",
     image: "/rubriques/one/1SUPPLICIE.jpg",
   },
   {
     id: 2,
-    title: "Période	Brune",
-    image: "/rubriques/two/3_2.jpg",
+    title: "2 - Période	Brune",
+    image: "/rubriques/two/4_8.jpg",
   },
   {
     id: 3,
-    title: "Du Bouquet Rose au Rouge",
-    image: "/rubriques/three/8_6.JPG",
+    title: "3 - Du Bouquet Rose au Rouge",
+    image: "/rubriques/three/10_0.JPG",
   },
   {
     id: 4,
-    title: "La	Révolte...	aux	Eglises-femme",
+    title: "4 - La	Révolte...	aux	Eglises-femme",
     image: "/rubriques/four/11_0.jpg",
   },
   {
     id: 5,
-    title: "Notables",
-    image: "/rubriques/five/14_3.jpg",
+    title: "5 - Notables",
+    image: "/rubriques/five/17_1.jpg",
   },
   {
     id: 6,
-    title: "Visages	vers	le	Ciel",
-    image: "/rubriques/six/17_3.jpg",
+    title: "6 - Visages	vers	le	Ciel",
+    image: "/rubriques/six/17_4.jpg",
   },
   {
     id: 7,
-    title: "Masques",
-    image: "/rubriques/seven/20_1.jpg",
+    title: "7 - Masques",
+    image: "/rubriques/seven/22_0.jpg",
   },
   {
     id: 8,
-    title: "Couples	de	la	Passion		Femmes	aux	Seins",
+    title: "8 - Couples	de	la	Passion		Femmes	aux	Seins",
     image: "/rubriques/eight/24_2.jpg",
   },
   {
     id: 9,
-    title: "Suppliciés	'Je	les	peignais	en	alternance	avec	les	Couples.'	MR",
+    title: "9 - Suppliciés	'Je	les	peignais	en	alternance	avec	les	Couples.'	MR",
     image: "/rubriques/nine/26_2.jpg",
   },
   {
     id: 10,
-    title: "Suppliciées	Ange	Noir	Couples	des	Cendres...	au	Supplicié-vitrail",
+    title: "10 - Suppliciées	Ange	Noir	Couples	des	Cendres...	au	Supplicié-vitrail",
     image: "/rubriques/ten/29_1.jpg",
   },
 ]
@@ -58,7 +58,7 @@ const artworks = [
 export default function OeuvrePage() {
   return (
     <main className="min-h-screen bg-black text-white">
-      <div className="pb-24">
+      <div className="pt-24">
         {" "}
         {/* Added padding at the bottom for the fixed navbar */}
         <h1 className="mb-8 py-8 text-center text-4xl font-light">Oeuvre</h1>
@@ -80,7 +80,7 @@ export default function OeuvrePage() {
           ))}
         </div>
       </div>
-      <MainNav className="fixed bottom-0 left-0 right-0" />
+      <MainNav className="fixed top-0 left-0 right-0" />
     </main>
   )
 }

@@ -4,7 +4,7 @@ import { MainNav } from "@/components/main-nav"
 export default function BiographyPage() {
   return (
     <main className="flex flex-col h-full w-full bg-black text-white pt-8 pb-36">
-      <div className="flex-1 mx-auto w-full max-w-7xl">
+      <div className="flex-1 mx-auto w-full max-w-7xl pt-24">
         {/* First Section */}
         <div className="grid w-full grid-cols-1 items-start gap-16 px-8 lg:grid-cols-2 min-h-screen mb-16">
           <div className="relative w-full h-full">
@@ -99,7 +99,7 @@ export default function BiographyPage() {
           </div>
         </div>
 
-        <MainNav className="fixed bottom-0 left-0 right-0" />
+        <MainNav className="fixed top-0 left-0 right-0" />
       </div>
     </main>
   )

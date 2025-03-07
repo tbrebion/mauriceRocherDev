@@ -33,7 +33,7 @@ export function Gallery({ artworks }: GalleryProps) {
             />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100 max-h-[50%] overflow-hidden">
               <h2 className="text-lg font-semibold truncate">{artwork.title}</h2>
-              <p className="mt-1 text-sm text-gray-300 line-clamp-3">{artwork.description}</p>
+              {/* <p className="mt-1 text-sm text-gray-300 line-clamp-3">{artwork.description}</p> */}
             </div>
           </div>
         ))}
@@ -42,11 +42,11 @@ export function Gallery({ artworks }: GalleryProps) {
       {/* Modal */}
       {selectedArtwork && (
         <div 
-          className="fixed inset-0 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+          className="fixed inset-0 backdrop-blur-sm bg-black/70 z-50 flex items-center justify-center p-4 overflow-y-auto pt-24"
           onClick={() => setSelectedArtwork(null)}
         >
           <div 
-            className="relative max-w-4xl w-full rounded-lg overflow-hidden bg-transparent"
+            className="relative max-w-4xl w-full rounded-lg overflow-hidden bg-transparent my-auto"
             onClick={(e) => e.stopPropagation()}
           >
             <button
@@ -72,9 +72,9 @@ export function Gallery({ artworks }: GalleryProps) {
                 className="object-contain"
               />
             </div>
-            <div className="p-6 bg-black/50 backdrop-blur-sm rounded-b-lg">
+            <div className="p-6 rounded-b-lg max-h-[40vh] overflow-y-auto">
               <h2 className="text-2xl font-semibold">{selectedArtwork.title}</h2>
-              <p className="mt-2 text-gray-300">{selectedArtwork.description}</p>
+              <p className="mt-2 text-gray-300 text-justify">{selectedArtwork.description}</p>
             </div>
           </div>
         </div>
