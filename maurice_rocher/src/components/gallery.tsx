@@ -14,7 +14,34 @@ interface GalleryProps {
 }
 
 export function Gallery({ artworks }: GalleryProps) {
-  const [selectedArtwork, setSelectedArtwork] = useState<Artwork | null>(null)
+  const [selectedArtworks, setSelectedArtworks] = useState<Artwork[]>([])
+
+  // Helper function to find related artworks
+  const getRelatedArtworks = (artwork: Artwork) => {
+    // Extract base filename without extension (e.g., "15_8" from "15_8.jpg")
+    const baseFilename = artwork.image.split('/').pop()?.split('.')[0]
+    if (!baseFilename) return [artwork]
+
+    // Define specific groups of related images
+    const relatedGroups = [
+      ['15_8', '15_9'],
+      ['24_4', '24_5', '24_6'],
+    ]
+
+    // Check if the current image is part of a related group
+    const group = relatedGroups.find(group => group.includes(baseFilename))
+    
+    if (group) {
+      // If it's part of a group, return all artworks from that group
+      return artworks.filter(a => {
+        const filename = a.image.split('/').pop()?.split('.')[0]
+        return filename && group.includes(filename)
+      })
+    }
+
+    // If not part of a group, return just this artwork
+    return [artwork]
+  }
 
   return (
     <>
@@ -23,7 +50,7 @@ export function Gallery({ artworks }: GalleryProps) {
           <div 
             key={artwork.id} 
             className="group relative aspect-square cursor-pointer"
-            onClick={() => setSelectedArtwork(artwork)}
+            onClick={() => setSelectedArtworks(getRelatedArtworks(artwork))}
           >
             <Image
               src={artwork.image || "/placeholder.svg"}
@@ -40,18 +67,18 @@ export function Gallery({ artworks }: GalleryProps) {
       </div>
 
       {/* Modal */}
-      {selectedArtwork && (
+      {selectedArtworks.length > 0 && (
         <div 
           className="fixed inset-0 backdrop-blur-sm bg-black/70 z-50 flex items-center justify-center p-4 overflow-y-auto pt-24"
-          onClick={() => setSelectedArtwork(null)}
+          onClick={() => setSelectedArtworks([])}
         >
           <div 
-            className="relative max-w-4xl w-full rounded-lg overflow-hidden bg-transparent my-auto"
+            className="relative max-w-6xl w-full rounded-lg overflow-hidden bg-transparent my-auto"
             onClick={(e) => e.stopPropagation()}
           >
             <button
               className="absolute top-4 right-4 z-10 w-8 h-8 flex items-center justify-center rounded-full bg-black/50 hover:bg-black/70 transition-colors"
-              onClick={() => setSelectedArtwork(null)}
+              onClick={() => setSelectedArtworks([])}
             >
               <svg 
                 xmlns="http://www.w3.org/2000/svg" 
@@ -64,17 +91,26 @@ export function Gallery({ artworks }: GalleryProps) {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>
-            <div className="relative aspect-square md:aspect-[16/9]">
-              <Image
-                src={selectedArtwork.image || "/placeholder.svg"}
-                alt={selectedArtwork.title}
-                fill
-                className="object-contain"
-              />
-            </div>
-            <div className="p-6 rounded-b-lg max-h-[40vh] overflow-y-auto">
-              <h2 className="text-2xl font-semibold">{selectedArtwork.title}</h2>
-              <p className="mt-2 text-gray-300 text-justify">{selectedArtwork.description}</p>
+            
+            <div className={`grid gap-4 ${selectedArtworks.length > 1 ? 'grid-cols-1 md:grid-cols-2' : 'grid-cols-1 max-w-2xl mx-auto'}`}>
+              {selectedArtworks.map((artwork) => (
+                <div key={artwork.id}>
+                  <div className="relative aspect-square">
+                    <Image
+                      src={artwork.image || "/placeholder.svg"}
+                      alt={artwork.title}
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h2 className="text-xl font-semibold">{artwork.title}</h2>
+                    {artwork.description && (
+                      <p className="mt-2 text-gray-300 text-justify">{artwork.description}</p>
+                    )}
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
