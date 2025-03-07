@@ -1,6 +1,12 @@
 import Link from "next/link"
 import { MainNav } from "@/components/main-nav"
 import { Gallery } from "@/components/gallery"
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Oeuvres",
+  description: "Oeuvres de Maurice Rocher",
+};
 
 // This is now a static object instead of a function
 const sections = [
@@ -1924,14 +1930,14 @@ dans le ciel. » - MR`,
     },
     {
       id: 22,
-      title: "SUPPLICIE-VITRAIL 125, 1992 116x89",
+      title: "SUPPLICIE-VITRAIL 116 1992 100x81",
       description: `Alors le peintre parvient à mettre au jour sa lumière la plus enfouie. Car l’éternité ne se découvre qu’en
 s’approchant de ce qu’il y a de plus vivant - Nathalie Cottin Ayache`,
       image: "/rubriques/ten/31_2.jpg",
     },
     {
       id: 23,
-      title: "SUPPLICIE-VITRAIL 116 1992 100x81",
+      title: "SUPPLICIE-VITRAIL 125, 1992 116x89",
       description: "",
       image: "/rubriques/ten/31_3.jpg",
     },

@@ -1,6 +1,12 @@
 import Image from "next/image"
 import Link from "next/link"
 import { MainNav } from "@/components/main-nav"
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Oeuvres",
+  description: "Oeuvres de Maurice Rocher",
+};
 
 const artworks = [
   {

@@ -1,5 +1,11 @@
 import Image from "next/image"
 import { MainNav } from "@/components/main-nav"
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact",
+  description: "Contact de Maurice Rocher",
+};
 
 export default function ContactPage() {
   return (

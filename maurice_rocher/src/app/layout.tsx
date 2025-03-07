@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Maurice Rocher",
-  description: "Les oeuvres de Maurice Rocher",
+  description: "Maurice Rocher",
 };
 
 export default function RootLayout({

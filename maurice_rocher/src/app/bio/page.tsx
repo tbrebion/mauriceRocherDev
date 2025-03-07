@@ -1,6 +1,12 @@
 import Image from "next/image"
 import { MainNav } from "@/components/main-nav"
+import { Metadata } from "next";
 
+
+export const metadata: Metadata = {
+  title: "Biographie",
+  description: "Biographie de Maurice Rocher",
+};
 export default function BiographyPage() {
   return (
     <main className="flex flex-col h-full w-full bg-black text-white pt-8 pb-36">
