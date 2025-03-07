@@ -13,8 +13,8 @@ export default function BiographyPage() {
       <div className="flex-1 mx-auto w-full max-w-7xl pt-24">
         {/* First Section */}
         <div className="grid w-full grid-cols-1 items-start gap-16 px-8 lg:grid-cols-2 min-h-screen mb-16">
-          <div className="relative w-full h-full">
-            <Image src="/bio/bio-1.jpg" alt="Maurice Rocher" fill className="object-cover rounded-md" />
+          <div className="relative aspect-[3/4] w-full">
+            <Image src="/bio/bio-1.jpg" alt="Maurice Rocher" fill className="object-contain" />
           </div>
           <div className="space-y-12">
             <h1 className="text-4xl md:text-5xl font-light">Maurice Rocher</h1>
@@ -42,8 +42,8 @@ export default function BiographyPage() {
 
         {/* Second Section */}
         <div className="grid w-full grid-cols-1 items-start gap-16 px-8 lg:grid-cols-2 min-h-screen mb-16">
-          <div className="relative w-full h-full">
-            <Image src="/bio/bio-2.jpg" alt="Maurice Rocher" fill className="object-cover rounded-md" />
+          <div className="relative aspect-[3/4] w-full">
+            <Image src="/bio/bio-2.jpg" alt="Maurice Rocher" fill className="object-contain" />
           </div>
           <div className="space-y-12">
             <section>
@@ -60,15 +60,15 @@ export default function BiographyPage() {
 
         {/* Third Section */}
         <div className="grid w-full grid-cols-1 items-start gap-16 px-8 lg:grid-cols-2 min-h-screen">
-          <div className="space-y-16 h-full">
-            <div className="relative w-full h-full">
-              <Image src="/bio/bio-3.jpg" alt="Maurice Rocher" fill className="object-cover rounded-md" />
+          <div className="space-y-16">
+            <div className="relative aspect-[3/4] w-full">
+              <Image src="/bio/bio-3.jpg" alt="Maurice Rocher" fill className="object-contain" />
             </div>
-            <div className="relative w-full h-full">
-              <Image src="/bio/bio-4.jpg" alt="Maurice Rocher" fill className="object-cover rounded-md" />
+            <div className="relative aspect-[3/4] w-full">
+              <Image src="/bio/bio-4.jpg" alt="Maurice Rocher" fill className="object-contain" />
             </div>
-            <div className="relative w-full h-full">
-              <Image src="/bio/bio-5.jpg" alt="Maurice Rocher" fill className="object-cover rounded-md" />
+            <div className="relative aspect-[3/4] w-full">
+              <Image src="/bio/bio-5.jpg" alt="Maurice Rocher" fill className="object-contain" />
             </div>
           </div>
           <div className="space-y-12">
