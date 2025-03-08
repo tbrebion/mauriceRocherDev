@@ -21,15 +21,15 @@ export default function Expositions() {
         <div className="grid w-full grid-cols-1 items-start gap-16 px-8 lg:grid-cols-2 mb-16">
           <div 
             className="relative aspect-[3/4] w-full cursor-pointer transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl" 
-            onClick={() => setSelectedImage("/expositions/1_EXPOSITION.png")}
+            onClick={() => setSelectedImage("/expositions/1_EXPOSITION.PNG")}
           >
-            <Image src="/expositions/1_EXPOSITION.png" alt="Exposition Maurice Rocher" fill className="object-contain" />
+            <Image src="/expositions/1_EXPOSITION.PNG" alt="Exposition Maurice Rocher" fill className="object-contain" />
           </div>
           <div 
             className="relative aspect-[3/4] w-full cursor-pointer transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl" 
-            onClick={() => setSelectedImage("/expositions/2_EXPOSITION.png")}
+            onClick={() => setSelectedImage("/expositions/2_EXPOSITION.PNG")}
           >
-            <Image src="/expositions/2_EXPOSITION.png" alt="Exposition Maurice Rocher" fill className="object-contain" />
+            <Image src="/expositions/2_EXPOSITION.PNG" alt="Exposition Maurice Rocher" fill className="object-contain" />
           </div>
         </div>
 

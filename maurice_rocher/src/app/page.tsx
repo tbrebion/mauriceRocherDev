@@ -11,7 +11,7 @@ export default function Home() {
             {/* First image (clickable) */}
             <a href="https://www.catherinepennec.com/fr/expositions/expositions-%C3%A0-venir/" target="_blank" className="block relative h-[80vh] w-full">
               <Image
-                src="/expositions/1_EXPOSITION.png"
+                src="/expositions/1_EXPOSITION.PNG"
                 alt="First Artwork"
                 fill
                 className="object-contain transition-opacity duration-300 hover:opacity-60"
