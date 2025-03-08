@@ -47,7 +47,7 @@ const artworks = [
   {
     id: 8,
     title: "8 - Couples	de	la	Passion		Femmes	aux	Seins",
-    image: "/rubriques/eight/24_2.jpg",
+    image: "/rubriques/eight/25_7.jpg",
   },
   {
     id: 9,
