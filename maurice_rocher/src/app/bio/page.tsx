@@ -20,7 +20,7 @@ export default function BiographyPage() {
             <h1 className="text-4xl md:text-5xl font-light">Maurice Rocher</h1>
             <section>
               <h2 className="text-2xl md:text-3xl font-light mb-6">Biographie</h2>
-              <p className="text-lg leading-relaxed mb-6">
+              <p className="text-lg leading-relaxed mb-6 text-justify">
                 Né le 1er Août 1918 à Evron, Mayenne, ascendances paysannes et artisanales, père employé des chemins de de
                 fer, vit à Evron, Mayenne, jusqu'en 1930. Grand-oncle peintre portraitiste à Laval, commence à peindre à
                 quatorze ans. études au Mans, de 1930 à 1936, école des Arts Appliqués, Le Mans, 1934-1936. En 1936, voyage
@@ -29,7 +29,7 @@ export default function BiographyPage() {
                 période mystique, peintures à sujets religieux, vitraux et fresques, nombreux séjours à l'abbaye de
                 Solesmes.
               </p>
-              <p className="text-lg leading-relaxed">
+              <p className="text-lg leading-relaxed text-justify">
                 Se marie en février 1944 avec Geneviève Chevard. Cinq enfants de 1944 à 1952. 1947, professeur aux Ateliers
                 d'Art Sacré, fondés par Maurice Denis, cofondateur et professeur au Centre d'Art Sacré, 1948-1952.
                 Pensionnaire à la Casa Vélasquez, Madrid, 1949-1950. 1952, prix de la Jeune Peinture, Paris de 1944 à 1976,
@@ -48,7 +48,7 @@ export default function BiographyPage() {
           <div className="space-y-12">
             <section>
               <h2 className="text-2xl md:text-3xl font-light mb-6">Vie et peinture</h2>
-              <blockquote className="text-lg italic leading-relaxed border-l-4 border-gray-500 pl-6 mb-6">
+              <blockquote className="text-lg italic leading-relaxed border-l-4 border-gray-500 pl-6 mb-6 text-justify">
                 «… plus j'avance, plus l'acte de peindre est jouissance, celle de peindre avec ses doigts trempés dans la
                 pâte colorée, celle de faire des pirouettes, (plastiques), et de retomber sur ses pieds, et à travers ce
                 geste, et dans la folie du geste, de dire la passion, la vie, la mort...»
@@ -76,7 +76,7 @@ export default function BiographyPage() {
               <h2 className="text-2xl md:text-3xl font-light mb-6">
                 Regard sur le peintre Maurice Rocher, par Alain Lemoine
               </h2>
-              <p className="text-lg leading-relaxed">
+              <p className="text-lg leading-relaxed text-justify">
                 "L'œuvre de Maurice Rocher est un long cri probatoire, un cri déchirant face à notre condition prise dans
                 les rets d'un questionnement sans fin. L'expressionnisme de Maurice Rocher n'est pas une approche de l'homme
                 en miroir de lui-même, mais se réclame d'une pensée plus haute, plus exigeante, plus profonde, celle de
@@ -85,7 +85,7 @@ export default function BiographyPage() {
                 L'expressionnisme serait donc sacré, avec toute l'ambiguïté du sens de ce mot, heureusement sorti des
                 seules sentes religieuses ; sacré dès qu'il rend compte du destin, et de ce qui le compose.
               </p>
-              <p className="text-lg leading-relaxed mt-6">
+              <p className="text-lg leading-relaxed mt-6 text-justify">
                 Les couples de Maurice Rocher suivent leur parcours. Ils naissent, ils vivent, ils meurent. La palette
                 traduit magnifiquement ce cheminement. Le rouge violent de la passion le cède au rose pâle de l'amour
                 déclinant, survient la couleur fauve des affrontements, et bientôt le gris, la cendre des sentiments
@@ -94,7 +94,7 @@ export default function BiographyPage() {
                 passait à la lame de rasoir, raclant la pâte jusqu'à la trame pour mieux atteindre l'essence des choses ;
                 immatière des suppliciés devenus « vitrail » que la lumière traverse, venue d'un autre monde.
               </p>
-              <p className="text-lg leading-relaxed mt-6">
+              <p className="text-lg leading-relaxed mt-6 text-justify">
                 Cette manière illustre le propos de Rembrandt disant que toute technique renvoie à une métaphysique. Car il
                 s'agit bien de cela. Une œuvre entièrement vouée à l'interrogation, transcendante et intemporelle, dans le
                 droit fil de celle qui anime la pensée des grands témoins, ces « passants considérables », où la tendresse
