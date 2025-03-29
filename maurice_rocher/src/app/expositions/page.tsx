@@ -3,6 +3,7 @@ import Image from "next/image"
 import { MainNav } from "@/components/main-nav"
 // import { Metadata } from "next";
 import { useState } from "react"
+import SimpleAudioPlayer from '@/components/audioPlayer';
 
 // export const metadata: Metadata = {
 //   title: "Expositions",
@@ -15,10 +16,17 @@ export default function Expositions() {
   return (
     <main className="flex flex-col h-full w-full bg-black text-white pt-8 pb-36">
       <div className="flex-1 mx-auto w-full max-w-7xl pt-24">
-        <h1 className="text-4xl md:text-5xl font-light px-8 mb-16 tracking-wider">Expositions</h1>
-        
-        <h2 className="text-3xl md:text-4xl font-light px-8 mb-8 text-gray-300">Exposition à venir</h2>
-        <div className="grid w-full grid-cols-1 items-start gap-16 px-8 lg:grid-cols-2 mb-16">
+          <h1 className="text-4xl md:text-5xl font-light px-8 mb-8">Expositions</h1>
+          <SimpleAudioPlayer
+          src="/GUSTAV MAHLER   Symphony No.9 (Adagio)  LEONARD BERNSTEIN.mp3"
+          title="GUSTAV MAHLER Symphony No.9 (Adagio) LEONARD BERNSTEIN"
+          />
+          <h2
+          className="text-3xl md:text-4xl font-light absolute px-8 mb-8 text-gray-300 md:ml-10"
+        >
+          Exposition en cours
+        </h2>        
+      <div className="grid w-full grid-cols-1 items-start gap-16 px-8 lg:grid-cols-2 mb-16">
           <div 
             className="relative aspect-[3/4] w-full cursor-pointer transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl" 
             onClick={() => setSelectedImage("/expositions/1_EXPOSITION.PNG")}
@@ -32,8 +40,11 @@ export default function Expositions() {
             <Image src="/expositions/2_EXPOSITION.PNG" alt="Exposition Maurice Rocher" fill className="object-contain" />
           </div>
         </div>
-
-        <h2 className="text-3xl md:text-4xl font-light px-8 mb-8 text-gray-300">Exposition passée</h2>
+        <h2
+          className="text-3xl md:text-4xl font-light absolute px-8 mb-8 text-gray-300 md:ml-10"
+        >
+          Expositions passées
+        </h2>  
         <div className="grid w-full grid-cols-1 md:grid-cols-2 items-start gap-8 px-8">
           {[3, 4, 5, 6].map((num) => (
             <div 
