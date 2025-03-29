@@ -10,6 +10,7 @@ const SimpleAudioPlayer: React.FC<SimpleAudioPlayerProps> = ({
   title = 'Audio Track' 
 }) => {
   const audioRef = useRef<HTMLAudioElement>(null);
+  const progressBarRef = useRef<HTMLDivElement>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
@@ -56,6 +57,18 @@ const SimpleAudioPlayer: React.FC<SimpleAudioPlayerProps> = ({
     setIsPlaying(!isPlaying);
   };
 
+  const handleTimelineClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (!progressBarRef.current || !audioRef.current) return;
+    
+    const rect = progressBarRef.current.getBoundingClientRect();
+    const clickPosition = (e.clientX - rect.left) / rect.width;
+    const newTime = clickPosition * duration;
+    
+    // Set the audio time
+    audioRef.current.currentTime = newTime;
+    setCurrentTime(newTime);
+  };
+
   return (
     <div className="bg-black text-white rounded-lg shadow-lg p-3 max-w-xs">
       <audio ref={audioRef} src={src} preload="metadata" />
@@ -67,11 +80,11 @@ const SimpleAudioPlayer: React.FC<SimpleAudioPlayerProps> = ({
           aria-label={isPlaying ? 'Pause' : 'Play'}
         >
           {isPlaying ? (
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 9v6m4-6v6" />
             </svg>
           ) : (
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
             </svg>
           )}
@@ -81,11 +94,18 @@ const SimpleAudioPlayer: React.FC<SimpleAudioPlayerProps> = ({
       </div>
       
       <div className="flex-1">
-        <div className="bg-gray-800 rounded-full h-1 overflow-hidden">
+        <div 
+          ref={progressBarRef}
+          className="bg-gray-800 rounded-full h-2 overflow-hidden cursor-pointer relative"
+          onClick={handleTimelineClick}
+        >
           <div 
             className="bg-white h-full" 
             style={{ width: `${duration ? (currentTime / duration) * 100 : 0}%` }}
           ></div>
+
+          {/* Hover effect to indicate clickable area */}
+          <div className="absolute inset-0 hover:bg-gray-700 opacity-0 hover:opacity-20 transition-opacity"></div>
         </div>
         
         <div className="flex justify-between text-xs text-gray-400 mt-1">

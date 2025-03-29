@@ -67,9 +67,7 @@ export default function BiographyPage() {
             <div className="relative aspect-[3/4] w-full">
               <Image src="/bio/bio-4.jpg" alt="Maurice Rocher" fill className="object-contain" />
             </div>
-            <div className="relative aspect-[3/4] w-full">
-              <Image src="/bio/bio-5.jpg" alt="Maurice Rocher" fill className="object-contain" />
-            </div>
+
           </div>
           <div className="space-y-12">
             <section>

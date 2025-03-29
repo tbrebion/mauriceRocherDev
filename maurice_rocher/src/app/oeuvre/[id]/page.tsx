@@ -642,7 +642,8 @@ désir de mettre ma peinture au service de la foi. » Entretiens avec Nathalie C
 « Comme un abcès qui mûrit (ou comme un fruit) il a fallu cette lente évolution, ou révolution, qui, à travers
 les « états » et les problèmes de ma vie m’ont amené a cet éclatement, à cette violence qui a pris corps à
 partir de 1965 dans mes visages et par le rouge. » - MR
-« J’ai tourné le dos à la foi » MR n’a pas renié sa foi, il était en recherche de Dieu, il a cherché des réponses
+« J’ai tourné le dos à la foi » - MR`,
+      descriptionDos: `Maurice Raucher n’a pas renié sa foi, il était en recherche de Dieu, il a cherché des réponses
 par ses oeuvres jusqu à sa mort, toute sa vie son art a été transpercé par un dialogue avec Dieu, conflictuel
 mais dialogue, à travers l’Ecce Homo ou l’Ange Noir...`,
       image: "/rubriques/four/11_0.jpg",
@@ -789,7 +790,7 @@ met en route. L’Église de la rédemption est devenue l’Église des angoisse
 « Conservant des restes de couleur, il se prit à les déposer sur un support cartonné, laissant toute latitude au
 hasard qui allait donner corps d’abord à des façades d’églises avant de les muer en visages. » - Nathalie Cottin
 Ayache
-« en revoyant ce matin la dizaine de petites « églises-matières »en cours qui deviennent toutes des visages, je
+« en revoyant ce matin la dizaine de petites « églises-matières » en cours qui deviennent toutes des visages, je
 ne pouvais m’empêcher de penser que j’atteignais peut-être dans ces visages, l’expressionnisme encore, mais
 dépassé. Comme un terme, et plus un terme qu’un aboutissement, comme si un "plus loin" pour la première
 fois n’était plus possible.
@@ -1613,7 +1614,7 @@ mille gouaches peintes depuis 2 ans étaient déjà dans ce film. » - MR`,
       id: 3,
       title: "SUPPLICIE 1, 1984 100x81",
       description: `« Entre janvier 1986 et le 25 juillet 1986, j’ai peint 25 suppliciés : des visages laminés, déchirés, boursouflés,
-sanglants. Je les peignais en alternance avec les couples. Je les mettais souvent par panneau de six, je lesinstallais dans le fond de l’atelier pour les regarder, de façon fraternelle. Je m’y retrouvais, j’avais besoin d’
+sanglants. Je les peignais en alternance avec les couples. Je les mettais souvent par panneau de six, je les installais dans le fond de l’atelier pour les regarder, de façon fraternelle. Je m’y retrouvais, j’avais besoin d’
 eux. Ils m’aidaient à vivre.
 ... des visages en interrogation ayant dépassé la notion physique de l’homme supplicié pour atteindre une
 sorte d’intemporalité. Rouges toujours, de ce rouge sang séché avec sa connotation espagnole et
