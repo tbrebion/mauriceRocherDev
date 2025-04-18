@@ -87,15 +87,13 @@ export default function Expositions() {
         </div>
 
         {/* Row 4 */}
-        <div className="flex flex-col md:flex-row mb-8 pb-8 border-b border-gray-700">
-          {/* Audio player on the left */}
+        {/* <div className="flex flex-col md:flex-row mb-8 pb-8 border-b border-gray-700">
           <div className="w-full md:w-1/3 mb-4 md:mb-0 md:pr-6 flex items-center justify-center">
             <SimpleAudioPlayer
               src="/GUSTAVMAHLERSymphonyNo9.mp3"
               title="Alim Qasimov Ayriliq Negmesi - Im Traum Wird Geschlafen"
             />
           </div>
-          {/* Text content on the right */}
           <div className="w-full md:w-2/3">
             <div className="bg-black bg-opacity-50 p-6 rounded-lg text-white h-full">
               <h2 className="text-xl md:text-2xl font-bold mb-4">Alim Qasimov Ayriliq Negmesi - Im Traum Wird Geschlafen</h2>
@@ -104,7 +102,7 @@ export default function Expositions() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
 
         {/* Row 5 */}

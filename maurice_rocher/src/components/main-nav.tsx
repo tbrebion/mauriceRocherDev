@@ -76,7 +76,7 @@ export function MainNav({ className, ...props }: MainNavProps) {
               EXPOSITIONS
             </Link>
             <Link href="/bio" className="text-sm font-light tracking-widest transition-colors hover:text-gray-400">
-              BIO
+              SA VIE AVEC SON OEUVRE
             </Link>
             <Link href="/contact" className="text-sm font-light tracking-widest transition-colors hover:text-gray-400">
               CONTACT
@@ -86,16 +86,20 @@ export function MainNav({ className, ...props }: MainNavProps) {
       )}
 
       {/* Desktop Layout */}
-      <div className="hidden lg:flex lg:w-full lg:items-center lg:justify-between">
+      <div className="hidden lg:flex lg:w-full lg:items-center relative">
+      {/* First section - 30% width */}
+      <div className="flex w-[35%] justify-around">
         <Link href="/oeuvre" className="text-sm font-light tracking-widest transition-colors hover:text-gray-400">
           OEUVRE
         </Link>
         <Link href="/expositions" className="text-sm font-light tracking-widest transition-colors hover:text-gray-400">
           EXPOSITIONS
         </Link>
-
-        {/* Center logo */}
-        <Link href="/" className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transition-opacity duration-300 hover:opacity-30">
+      </div>
+      
+      {/* Center section - 40% width */}
+      <div className="flex w-[30%] justify-center relative">
+        <Link href="/" className="transition-opacity duration-300 hover:opacity-30">
           <Image
             src="/logo.png"
             alt="Logo"
@@ -104,14 +108,18 @@ export function MainNav({ className, ...props }: MainNavProps) {
             className="object-contain"
           />
         </Link>
-
+      </div>
+      
+      {/* Last section - 30% width */}
+      <div className="flex w-[35%] justify-around">
         <Link href="/bio" className="text-sm font-light tracking-widest transition-colors hover:text-gray-400">
-          BIO
+          SA VIE AVEC SON OEUVRE
         </Link>
         <Link href="/contact" className="text-sm font-light tracking-widest transition-colors hover:text-gray-400">
           CONTACT
         </Link>
       </div>
+    </div>
     </nav>
   )
 }
