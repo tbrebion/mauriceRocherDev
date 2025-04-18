@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'Garamond';
+	src: url('/fonts/EBGaramond-VariableFont_wght.ttf') format('truetype');
+	font-weight: bold;
+	/* font-style: normal; */
+}
+@font-face {
+	font-family: 'GaramondIt';
+	src: url('/fonts/EBGaramond-Italic-VariableFont_wght.ttf') format('truetype');
+	font-weight: bold;
+	/* font-style: normal; */
+}

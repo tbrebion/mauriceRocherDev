@@ -6,6 +6,7 @@ interface Artwork {
   id: number
   title: string
   description: string
+  descriptionDos: string
   image: string
 }
 
@@ -107,6 +108,9 @@ export function Gallery({ artworks }: GalleryProps) {
                     <h2 className="text-xl font-semibold">{artwork.title}</h2>
                     {artwork.description && (
                       <p className="mt-2 text-gray-300 text-justify">{artwork.description}</p>
+                    )}
+                    {artwork.descriptionDos && (
+                      <p className="mt-2 text-gray-300 text-justify"><br/>{artwork.descriptionDos}</p>
                     )}
                   </div>
                 </div>
