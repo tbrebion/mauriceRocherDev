@@ -191,8 +191,8 @@ const artworksPerSection = {
     },
     {
       id: 9,
-      title: "COUPLE, 1949 130x97",
-      description: "Un voyage en Belgique lui fait découvrir le peintre expressionniste flamand Permek.",
+      title: "COUPLE 1949 130x97",
+      description: "Un voyage en Belgique lui fait découvrir le peintre expressionniste flamand Permeke.",
       image: "/rubriques/two/4_0.jpg",
     },
     {
@@ -605,7 +605,7 @@ cathédrale Saint-Louis… » - MR`,
     },
     {
       id: 23,
-      title: "MANGEUSE D'HOMME n°1 1984 130x97",
+      title: "MANGEUSE D'HOMME n°6 1984 130x97",
       description: "",
       image: "/rubriques/three/10_7.jpg",
     },

@@ -133,18 +133,29 @@ export default function Expositions() {
         >
           Exposition en cours
         </h2>        
-      <div className="grid w-full grid-cols-1 items-start gap-16 px-8 lg:grid-cols-2 mb-16">
-          <div 
-            className="relative aspect-[3/4] w-full cursor-pointer transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl" 
-            onClick={() => setSelectedImage("/expositions/1_EXPOSITION.PNG")}
+        <div className="w-full space-y-4 px-8 mb-16">
+          {/* First image - full width on top */}
+          <div
+            className="relative aspect-[3/4] w-full max-w-2xl mx-auto cursor-pointer transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl"
+            onClick={() => setSelectedImage("/Galerie.png")}
           >
-            <Image src="/expositions/1_EXPOSITION.PNG" alt="Exposition Maurice Rocher" fill className="object-contain" />
+            <Image src="/Galerie.png" alt="Exposition Maurice Rocher" fill className="object-contain" />
           </div>
-          <div 
-            className="relative aspect-[3/4] w-full cursor-pointer transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl" 
-            onClick={() => setSelectedImage("/expositions/2_EXPOSITION.PNG")}
-          >
-            <Image src="/expositions/2_EXPOSITION.PNG" alt="Exposition Maurice Rocher" fill className="object-contain" />
+
+          {/* Two images side by side below */}
+          <div className="grid w-full grid-cols-1 items-start gap-8 lg:grid-cols-2">
+            <div
+              className="relative aspect-[3/4] w-full cursor-pointer transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl"
+              onClick={() => setSelectedImage("/expositions/1_EXPOSITION.PNG")}
+            >
+              <Image src="/expositions/1_EXPOSITION.PNG" alt="Exposition Maurice Rocher" fill className="object-contain" />
+            </div>
+            <div
+              className="relative aspect-[3/4] w-full cursor-pointer transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl"
+              onClick={() => setSelectedImage("/expositions/2_EXPOSITION.PNG")}
+            >
+              <Image src="/expositions/2_EXPOSITION.PNG" alt="Exposition Maurice Rocher" fill className="object-contain" />
+            </div>
           </div>
         </div>
         <h2

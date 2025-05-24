@@ -496,7 +496,21 @@ Connu ou inconnu, qu’importe, le vent de l’Histoire balaiera tout et chacun 
             Audio-cassette, " Entretiens de Françoise Monnin avec Maurice Rocher ", Dart, Paris. <br />
 
             </p>
-
+            <div className="space-y-8">
+                <h2 className="text-2xl font-bold">Regard sur le peintre Maurice Rocher, par Alain Lemoine</h2>
+                <p className="text-lg leading-relaxed text-justify">
+                "L'œuvre de Maurice Rocher est un long cri probatoire, un cri déchirant face à notre condition prise dans les rets d'un questionnement sans fin. L'expressionnisme de Maurice Rocher n'est pas une approche de l'homme en miroir de lui-même, mais se réclame d'une pensée plus haute, plus exigeante, plus profonde, celle de témoigner de la tragédie humaine, de l'angoisse au-devant du mystère des choses, de la difficulté d'être. Chateaubriand disait que la souffrance était une prière. Dostoïevski s'agenouillait devant elle. L'expressionnisme serait donc sacré, avec toute l'ambiguïté du sens de ce mot, heureusement sorti des seules sentes religieuses ; sacré dès qu'il rend compte du destin, et de ce qui le compose.
+                </p>
+                <p className="text-lg leading-relaxed text-justify">
+                Les couples de Maurice Rocher suivent leur parcours. Ils naissent, ils vivent, ils meurent. La palette traduit magnifiquement ce cheminement. Le rouge violent de la passion le cède au rose pâle de l'amour déclinant, survient la couleur fauve des affrontements, et bientôt le gris, la cendre des sentiments consumés. De même les suppliciés s'habillent-ils au fil de la palette du même rouge, du même olive, du même gris cendré avant que de franchir le Styx, et c'est la manière des dernières toiles que Maurice Rocher passait à la lame de rasoir, raclant la pâte jusqu'à la trame pour mieux atteindre l'essence des choses ; immatière des suppliciés devenus « vitrail » que la lumière traverse, venue d'un autre monde.
+                </p>
+                <p className="text-lg leading-relaxed text-justify">
+                Cette manière illustre le propos de Rembrandt disant que toute technique renvoie à une métaphysique. Car il s'agit bien de cela. Une œuvre entièrement vouée à l'interrogation, transcendante et intemporelle, dans le droit fil de celle qui anime la pensée des grands témoins, ces « passants considérables », où la tendresse n'est pas absente pour mieux nous convaincre que, peut-être, tout n'est pas perdu puisqu'existe la solitude partagée."
+                </p>
+                <p className="text-lg leading-relaxed text-justify">
+                Alain Lemoine, ami et collectionneur
+                </p>
+            </div>
 
           </div>
           
