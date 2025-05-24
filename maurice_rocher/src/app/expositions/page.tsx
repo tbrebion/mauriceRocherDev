@@ -18,18 +18,15 @@ export default function Expositions() {
       <div className="flex-1 mx-auto w-full max-w-7xl pt-24">
           <h1 className="text-4xl md:text-5xl font-light px-8 mb-8">Expositions</h1>
 
-          <div className="p-6 mb-10">
+          {/* <div className="p-6 mb-10">
       <div className="max-w-6xl mx-auto">
-        {/* Row 1 */}
         <div className="flex flex-col md:flex-row mb-8 pb-8 border-b border-gray-700">
-          {/* Audio player on the left */}
           <div className="w-full md:w-1/3 mb-4 md:mb-0 md:pr-6 flex items-center justify-center">
             <SimpleAudioPlayer
               src="/song/ChoeurDesMoinesDeLAbbayeDeSolesmes.mp3"
               title="Chœur des moines de l’Abbaye de Solesmes - Noël: Matînes - Répons – Sancta"
             />
           </div>
-          {/* Text content on the right */}
           <div className="w-full md:w-2/3">
             <div className="bg-black bg-opacity-50 p-6 rounded-lg text-white h-full">
               <h2 className="text-xl md:text-2xl font-bold mb-4">Chœur des moines de l’Abbaye de Solesmes - Noël: Matînes - Répons – Sancta</h2>
@@ -42,16 +39,13 @@ export default function Expositions() {
           </div>
         </div>
 
-        {/* Row 2 */}
         <div className="flex flex-col md:flex-row mb-8 pb-8 border-b border-gray-700">
-          {/* Audio player on the left */}
           <div className="w-full md:w-1/3 mb-4 md:mb-0 md:pr-6 flex items-center justify-center">
             <SimpleAudioPlayer
               src="/song/SiguiriyasCruzadasDeJerez.mp3"
               title="Siguiriya Juan Romero Pantoja, guitarra Luis Morales"
             />
           </div>
-          {/* Text content on the right */}
           <div className="w-full md:w-2/3">
             <div className="bg-black bg-opacity-50 p-6 rounded-lg text-white h-full">
               <h2 className="text-xl md:text-2xl font-bold mb-4">Siguiriya Juan Romero Pantoja, guitarra Luis Morales</h2>
@@ -64,16 +58,13 @@ export default function Expositions() {
           </div>
         </div>
 
-        {/* Row 3 */}
         <div className="flex flex-col md:flex-row mb-8 pb-8 border-b border-gray-700">
-          {/* Audio player on the left */}
           <div className="w-full md:w-1/3 mb-4 md:mb-0 md:pr-6 flex items-center justify-center">
             <SimpleAudioPlayer
               src="/song/GUSTAVMAHLER.mp3"
               title="Symphonie n°9 adagio Gustav Malher Leonard Bernstein Wiener Philharmoniker"
             />
           </div>
-          {/* Text content on the right */}
           <div className="w-full md:w-2/3">
             <div className="bg-black bg-opacity-50 p-6 rounded-lg text-white h-full">
               <h2 className="text-xl md:text-2xl font-bold mb-4">Symphonie n°9 adagio Gustav Malher Leonard Bernstein Wiener Philharmoniker</h2>
@@ -86,35 +77,13 @@ export default function Expositions() {
           </div>
         </div>
 
-        {/* Row 4 */}
-        {/* <div className="flex flex-col md:flex-row mb-8 pb-8 border-b border-gray-700">
-          <div className="w-full md:w-1/3 mb-4 md:mb-0 md:pr-6 flex items-center justify-center">
-            <SimpleAudioPlayer
-              src="/GUSTAVMAHLERSymphonyNo9.mp3"
-              title="Alim Qasimov Ayriliq Negmesi - Im Traum Wird Geschlafen"
-            />
-          </div>
-          <div className="w-full md:w-2/3">
-            <div className="bg-black bg-opacity-50 p-6 rounded-lg text-white h-full">
-              <h2 className="text-xl md:text-2xl font-bold mb-4">Alim Qasimov Ayriliq Negmesi - Im Traum Wird Geschlafen</h2>
-              <p className="text-justify">
-               Cri de Fête ou cri de Douleur à Dieu.
-              </p>
-            </div>
-          </div>
-        </div> */}
-
-
-        {/* Row 5 */}
         <div className="flex flex-col md:flex-row mb-8 pb-8 border-b border-gray-700">
-          {/* Audio player on the left */}
           <div className="w-full md:w-1/3 mb-4 md:mb-0 md:pr-6 flex items-center justify-center">
             <SimpleAudioPlayer
               src="/song/SamiYusuf-Veritas.mp3"
               title="Sami Yusuf - Veritas (When Paths Meet)"
             />
           </div>
-          {/* Text content on the right */}
           <div className="w-full md:w-2/3">
             <div className="bg-black bg-opacity-50 p-6 rounded-lg text-white h-full">
               <h2 className="text-xl md:text-2xl font-bold mb-4">Sami Yusuf - Veritas (When Paths Meet)</h2>
@@ -126,7 +95,7 @@ export default function Expositions() {
         </div>
 
       </div>
-    </div>
+    </div> */}
 
           <h2
           className="text-3xl md:text-4xl font-light absolute px-8 mb-8 text-gray-300 md:ml-10"
