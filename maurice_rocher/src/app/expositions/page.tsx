@@ -48,13 +48,13 @@ export default function Expositions() {
           <div className="w-full md:w-1/3 mb-4 md:mb-0 md:pr-6 flex items-center justify-center">
             <SimpleAudioPlayer
               src="/song/SiguiriyasCruzadasDeJerez.mp3"
-              title="Siguiriya Juan Romero Pantoja, guitarra Luis Morales titre"
+              title="Siguiriya Juan Romero Pantoja, guitarra Luis Morales"
             />
           </div>
           {/* Text content on the right */}
           <div className="w-full md:w-2/3">
             <div className="bg-black bg-opacity-50 p-6 rounded-lg text-white h-full">
-              <h2 className="text-xl md:text-2xl font-bold mb-4">Siguiriya Juan Romero Pantoja, guitarra Luis Morales titre</h2>
+              <h2 className="text-xl md:text-2xl font-bold mb-4">Siguiriya Juan Romero Pantoja, guitarra Luis Morales</h2>
               <p className="text-justify">
               MR a fait de nombreux séjours en Espagne, Belgique, Italie, qui ont influencé son
               oeuvre. Il a été pensionnaire à la Casa Vélasquez, à Madrid. Il était passionné de

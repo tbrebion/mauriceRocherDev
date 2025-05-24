@@ -238,78 +238,97 @@ Connu ou inconnu, qu’importe, le vent de l’Histoire balaiera tout et chacun 
             <p className="text-lg bold leading-relaxed mt-6 text-justify">
             En FRANCE: 
             </p>
-            <p className="text-lg bold leading-relaxed mt-6 text-justify">
-            Versailles, Musée Lambinet :
-            </p>
-            <ul className="text-md bold leading-relaxed mt-6 text-justify">
-              <li> - L'Usine à gaz de Versailles, vers 1950, dessin, 29x37.</li>
-              <li> - L'Usine à gaz de Versailles,vers 1950, gouache, 31x38.</li>
-            </ul>
-            <p className="text-lg bold leading-relaxed mt-6 text-justify">
-            Poitiers, Musée Sainte-Croix :
-            </p>
-            <ul className="text-md bold leading-relaxed mt-6 text-justify">
-              <li> - Piéta huile sur toile, 33x42, Collection des Musées de Poitiers.</li>
-              <li> - Lithographie originale, 32x22, illustration du poème J'arriverai à défaire la mort dans le livre Douze Poètes Douze Peintres, Collection des Musées de Poitiers.</li>
-            </ul>
-            <p className="text-lg bold leading-relaxed mt-6 text-justify">
-            Paris, Centre National des Arts Plastiques CNAP, Fonds National d’art contemporain FNAP : 
-            </p>
-            <ul className="text-md bold leading-relaxed mt-6 text-justify">
-              <li> - Fresque Résurrection, 1946, Eglise Saint Dominique, Paris.</li>
-              <li> - Cortège du Mort, 1953, 210x280, Mairie de Saint-Sever, Aquitaine.</li>
-              <li> - L' homme en prière, 1952, huile sur toile, 195x130.</li>
-              <li> - Le Décoré vert, 1979, huile sur toile, 100x81, Réalités Nouvelles de 1980.</li>
-            </ul>
-            <p className="text-lg bold leading-relaxed mt-6 text-justify">
-            Cannes, Musée de la Castre : 
-            </p>
-            <ul className="text-md bold leading-relaxed mt-6 text-justify">
-              <li> - Crucifixion, vers 1960, huile sur toile.</li>
-              <li> - Supplicié, vers 1985, huile sur toile.</li>
-            </ul>
-            <p className="text-lg bold leading-relaxed mt-6 text-justify">
-            Laval, Musée  de Laval : 
-            </p>
-            <ul className="text-md bold leading-relaxed mt-6 text-justify">
-              <li> - La Grande Noce, vers 1966, huile sur toile, 161x215, Collection des Musées de Laval.</li>
-            </ul>
-            <p className="text-lg bold leading-relaxed mt-6 text-justify">
-            Saint-Omer, Musée de l'Hôtel Sandelin : 
-            </p>
-            <ul className="text-md bold leading-relaxed mt-6 text-justify">
-              <li> - Maire-Oiseau, 1973, 73x60.</li>
-            </ul>
-            <p className="text-lg bold leading-relaxed mt-6 text-justify">
-            Nantes, Musée des Beaux-Arts : 
-            </p>
-            <ul className="text-md bold leading-relaxed mt-6 text-justify">
-              <li> - Couple n°28, vers 1980-83, huile sur toile, 100x81.</li>
-            </ul>
-            <p className="text-lg bold leading-relaxed mt-6 text-justify">
-            Troyes, Musée d'Art Moderne : 
-            </p>
-            <ul className="text-md bold leading-relaxed mt-6 text-justify">
-              <li> -  Carmen n°3, 1984, huile sur toile, 146x114.</li>
-            </ul>
-            <p className="text-lg bold leading-relaxed mt-6 text-justify">
-            Pontoise, Musée Tavet-Delacour : 
-            </p>
-            <ul className="text-md bold leading-relaxed mt-6 text-justify">
-              <li> - Couple,1977 dessin  32x23</li>
-              <li> - 1978, encre de Chine et gouache, 37x26.</li>
-              <li> - Le salon, 1978, encre de Chine et gouache, 32x24.</li>
-            </ul>
-            <p className="text-lg bold leading-relaxed mt-6 text-justify">
-            Brest, Artothèque du Musée des Beaux-arts de Brest : 
-            </p>
-            <ul className="text-md bold leading-relaxed mt-6 text-justify">
-              <li> - Couple, 1979, gouache, 37x27.</li>
-              <li> - Femmes et visages, 1981, gouache, 31x24.</li>
-              <li> - Couple, 1981, gouache, 40x30.</li>
-              <li> - Femme, 1982, gouache, 37x27.</li>
-            </ul>
-
+            <div>
+              <p className="text-lg bold leading-relaxed mt-6 text-justify -mb-6">
+              Versailles, Musée Lambinet :
+              </p>
+              <ul className="text-md bold leading-relaxed mt-6 text-justify">
+                <li> - L'Usine à gaz de Versailles, vers 1950, dessin, 29x37.</li>
+                <li> - L'Usine à gaz de Versailles,vers 1950, gouache, 31x38.</li>
+              </ul>
+            </div>
+            <div>
+              <p className="text-lg bold leading-relaxed mt-6 text-justify -mb-6">
+              Poitiers, Musée Sainte-Croix :
+              </p>
+              <ul className="text-md bold leading-relaxed mt-6 text-justify">
+                <li> - Piéta huile sur toile, 33x42, Collection des Musées de Poitiers.</li>
+                <li> - Lithographie originale, 32x22, illustration du poème J'arriverai à défaire la mort dans le livre Douze Poètes Douze Peintres, Collection des Musées de Poitiers.</li>
+              </ul>
+            </div>
+            <div>
+              <p className="text-lg bold leading-relaxed mt-6 text-justify -mb-6">
+              Paris, Centre National des Arts Plastiques CNAP, Fonds National d’art contemporain FNAP : 
+              </p>
+              <ul className="text-md bold leading-relaxed mt-6 text-justify">
+                <li> - Fresque Résurrection, 1946, Eglise Saint Dominique, Paris.</li>
+                <li> - Cortège du Mort, 1953, 210x280, Mairie de Saint-Sever, Aquitaine.</li>
+                <li> - L' homme en prière, 1952, huile sur toile, 195x130.</li>
+                <li> - Le Décoré vert, 1979, huile sur toile, 100x81, Réalités Nouvelles de 1980.</li>
+              </ul>
+            </div>
+            <div>
+              <p className="text-lg bold leading-relaxed mt-6 text-justify -mb-6">
+              Cannes, Musée de la Castre : 
+              </p>
+              <ul className="text-md bold leading-relaxed mt-6 text-justify">
+                <li> - Crucifixion, vers 1960, huile sur toile.</li>
+                <li> - Supplicié, vers 1985, huile sur toile.</li>
+              </ul>
+            </div>
+            <div>
+              <p className="text-lg bold leading-relaxed mt-6 text-justify -mb-6">
+              Laval, Musée  de Laval : 
+              </p>
+              <ul className="text-md bold leading-relaxed mt-6 text-justify">
+                <li> - La Grande Noce, vers 1966, huile sur toile, 161x215, Collection des Musées de Laval.</li>
+              </ul>
+            </div>
+            <div>
+              <p className="text-lg bold leading-relaxed mt-6 text-justify -mb-6">
+              Saint-Omer, Musée de l'Hôtel Sandelin : 
+              </p>
+              <ul className="text-md bold leading-relaxed mt-6 text-justify">
+                <li> - Maire-Oiseau, 1973, 73x60.</li>
+              </ul>
+            </div>
+            <div>
+              <p className="text-lg bold leading-relaxed mt-6 text-justify -mb-6">
+              Nantes, Musée des Beaux-Arts : 
+              </p>
+              <ul className="text-md bold leading-relaxed mt-6 text-justify">
+                <li> - Couple n°28, vers 1980-83, huile sur toile, 100x81.</li>
+              </ul>
+            </div>
+            <div>
+              <p className="text-lg bold leading-relaxed mt-6 text-justify -mb-6">
+              Troyes, Musée d'Art Moderne : 
+              </p>
+              <ul className="text-md bold leading-relaxed mt-6 text-justify">
+                <li> -  Carmen n°3, 1984, huile sur toile, 146x114.</li>
+              </ul>
+            </div>
+            <div>
+              <p className="text-lg bold leading-relaxed mt-6 text-justify -mb-6">
+              Pontoise, Musée Tavet-Delacour : 
+              </p>
+              <ul className="text-md bold leading-relaxed mt-6 text-justify">
+                <li> - Couple,1977 dessin  32x23</li>
+                <li> - 1978, encre de Chine et gouache, 37x26.</li>
+                <li> - Le salon, 1978, encre de Chine et gouache, 32x24.</li>
+              </ul>
+            </div>
+            <div>
+              <p className="text-lg bold leading-relaxed mt-6 text-justify -mb-6">
+              Brest, Artothèque du Musée des Beaux-arts de Brest : 
+              </p>
+              <ul className="text-md bold leading-relaxed mt-6 text-justify">
+                <li> - Couple, 1979, gouache, 37x27.</li>
+                <li> - Femmes et visages, 1981, gouache, 31x24.</li>
+                <li> - Couple, 1981, gouache, 40x30.</li>
+                <li> - Femme, 1982, gouache, 37x27.</li>
+              </ul>
+            </div>
             <p className="text-2xl bold leading-relaxed mt-6 text-justify">
             A L’ÉTRANGER : 
             </p>

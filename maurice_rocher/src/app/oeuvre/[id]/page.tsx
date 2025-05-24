@@ -39,108 +39,102 @@ const artworksPerSection = {
     },
     {
       id: 3,
-      title: "VITRAIL WIMEREUX 1958 ST JEAN MARIE VIANNEY",
-      description: "LA LUMIÈRE, JOYEUX et TENDRE",
-      image: "/rubriques/one/1_3VITRAIL.jpg",
-    },
-    {
-      id: 4,
       title: "VITRAIL WIMEREUX EGLISE IMMACULEE CONCEPTION",
-      description: "",
+      description: "LA LUMIÈRE, JOYEUX et TENDRE",
       image: "/rubriques/one/1_4VITRAIL.jpg",
     },
     {
-      id: 5,
+      id: 4,
       title: "VITRAIL WIMEREUX",
       description: "",
       image: "/rubriques/one/1_5VITRAIL.jpg",
     },
     {
-      id: 6,
+      id: 5,
       title: "VITRAIL WIMEREUX",
       description: "",
       image: "/rubriques/one/1_6VITRAIL.jpg",
     },
     {
-      id: 7,
+      id: 6,
       title: "VITRAIL WIMEREUX",
       description: "",
       image: "/rubriques/one/1_7VITRAIL.jpg",
     },
     {
-      id: 8,
+      id: 7,
       title: "CROQUIS FUSAIN VIERGE de GUERNES 1954 58 150x65",
       description: "Maurice Rocher a fait des vitraux de 1946 à 1966.",
       image: "/rubriques/one/1_8CROQUIS.jpg",
     },
     {
-      id: 9,
+      id: 8,
       title: "EGLISE NOTRE DAME DE GUERNES",
       description: "",
       image: "/rubriques/one/1_9EGLISE.jpg",
     },
     {
-      id: 10,
+      id: 9,
       title: "MAQUETTE VITRAUX GUADALAJARA TEMPLO EXPIATORIO 1966 85",
       description: "",
       image: "/rubriques/one/2_1MAQUETTE.jpg",
     },
     {
-      id: 11,
+      id: 10,
       title: "VITRAUX GUADALAJARA 1966 85",
       description: "",
       image: "/rubriques/one/2_2VITRAUX.jpg",
     },
     {
-      id: 12,
+      id: 11,
       title: "VITRAUX GUADALAJARA 1966 85",
       description: "",
       image: "/rubriques/one/2_3GUADALAJARA.jpg",
     },
     {
-      id: 13,
+      id: 12,
       title: "BASILIQUE d EVRON 1951",
       description: "",
       image: "/rubriques/one/2_4BASILIQUE.jpg",
     },
     {
-      id: 14,
+      id: 13,
       title: "LES SAINTS EGLISE SAINT LOUIS BREST 1959",
       description: "",
       image: "/rubriques/one/2_5_LES_SAINTS.jpg",
     },
     {
-      id: 15,
+      id: 14,
       title: "EGLISE-NOTRE DAME de CAVIGNY 1961",
       description: "",
       image: "/rubriques/one/2_6EGLISE.jpg",
     },
     {
-      id: 16,
+      id: 15,
       title: "CHAPELLE du JUVENAT CHATEAULIN 1963",
       description: "",
       image: "/rubriques/one/2_7CHAPELLE.jpg",
     },
     {
-      id: 17,
+      id: 16,
       title: "EGLISE NOTRE-DAME- DE-TOUTES-AIDES NANTES 1958",
       description: "",
       image: "/rubriques/one/2_8EGLISE.jpg",
     },
     {
-      id: 18,
+      id: 17,
       title: "au CENTRE d ART SACRE 1948 avec G. Desvallières et J. Pichard",
       description: "MR a été aux Ateliers d'art sacré avec Maurice Denis et Georges Desvallières. \"Ce que m'apportait Denis sur le plan plastique, Desvallières me l'apportait sur le plan spirituel.\" - MR",
       image: "/rubriques/one/2_9CENTREdART.jpg",
     },
     {
-      id: 19,
+      id: 18,
       title: "MAURICE ROCHER vers 1946 PEIGNANT 1 FRESQUE",
       description: "",
       image: "/rubriques/one/3_0MAURICEROCHER.jpg",
     },
     {
-      id: 20,
+      id: 19,
       title: "FRESQUE Le VERBE et la PAROLE EGLISE ST DOMINIQUE PARIS 1946",
       description: "",
       image: "/rubriques/one/3_1FRESQUE.JPG",
@@ -643,20 +637,20 @@ désir de mettre ma peinture au service de la foi. » Entretiens avec Nathalie C
 les « états » et les problèmes de ma vie m’ont amené a cet éclatement, à cette violence qui a pris corps à
 partir de 1965 dans mes visages et par le rouge. » - MR
 « J’ai tourné le dos à la foi » - MR`,
-      descriptionDos: `Maurice Raucher n’a pas renié sa foi, il était en recherche de Dieu, il a cherché des réponses
+      descriptionDos: `Maurice Rocher n’a pas renié sa foi, il était en recherche de Dieu, il a cherché des réponses
 par ses oeuvres jusqu à sa mort, toute sa vie son art a été transpercé par un dialogue avec Dieu, conflictuel
 mais dialogue, à travers l’Ecce Homo ou l’Ange Noir...`,
       image: "/rubriques/four/11_0.jpg",
     },
     {
       id: 2,
-      title: "ÉGLISE 37, 1972 100x81",
+      title: "ÉGLISE 37 1972 100x81",
       description: "",
       image: "/rubriques/four/11_1.jpg",
     },
     {
       id: 3,
-      title: "ÉGLISE CARNAVAL DE RIO n°2, 1972 116x89",
+      title: "ÉGLISE CARNAVAL DE RIO n°2 1972 116x89",
       description: `« Deux seules choses peuvent me délivrer : ou retrouver Dieu, ou céder à l’aventure.
 Très vite, ces façades allaient devenir des visages, églises-femmes, carnaval…, gueule ouverte… ou
 anthropomorphe…, sur la fin, cette église des angoisses couverte d’ulcères. » - MR`,
@@ -676,7 +670,7 @@ anthropomorphe…, sur la fin, cette église des angoisses couverte d’ulcères
     },
     {
       id: 6,
-      title: "EGLISE 92 DES ANGOISSES, 1975 100x81",
+      title: "EGLISE 92 DES ANGOISSES 1975 100x81",
       description: `« la façade baroque se métamorphose progressivement en être vivant, elle se désarticule, s’étire, s’anime, se
 met en route. L’Église de la rédemption est devenue l’Église des angoisses. » - Jean-Marie Dunoyer`,
       image: "/rubriques/four/11_5.jpg",
@@ -695,7 +689,7 @@ met en route. L’Église de la rédemption est devenue l’Église des angoisse
     },
     {
       id: 9,
-      title: "EGLISE 65 DES ORAGES, 1973-84 130x97",
+      title: "EGLISE 65 DES ORAGES 1973-84 130x97",
       description: "« parcours douloureux d’un homme qui va des certitudes de la Foi vers un Ciel à jamais vide » - MR , 1995",
       image: "/rubriques/four/11_8.JPG",
     },
@@ -814,9 +808,9 @@ retouche ou je les casse. J’en sélectionne fort peu. » - MR`,
     },
     {
       id: 27,
-      title: "VISAGE-MATIERE BUSTE FEMME 1981-88",
+      title: "VISAGE-MATIERE MARIEE COQ 1977-83",
       description: "",
-      image: "/rubriques/four/13_6.jpg",
+      image: "/rubriques/four/13_7_1.jpg",
     },
     {
       id: 28,
