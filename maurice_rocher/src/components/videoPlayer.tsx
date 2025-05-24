@@ -105,7 +105,7 @@ export default function VideoPlayer() {
           onTimeUpdate={handleTimeUpdate}
           onLoadedMetadata={handleLoadedMetadata}
         >
-          <source src="/MauriceRocher4.mp4" type="video/mp4" />
+          <source src="/MauriceRocher5.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
