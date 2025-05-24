@@ -102,14 +102,14 @@ export default function Expositions() {
         >
           Exposition en cours
         </h2>        
-        <div className="w-full space-y-4 px-8 mb-16">
-          {/* First image - full width on top */}
-          <div
-            className="relative aspect-[3/4] w-full max-w-2xl mx-auto cursor-pointer transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl"
+        <div className="w-full space-y-4 px-8 mt-24 mb-16">
+          {/* First image - reduced height */}
+          {/* <div
+            className="relative aspect-[4/3] w-full max-w-2xl mx-auto cursor-pointer transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl"
             onClick={() => setSelectedImage("/Galerie.png")}
           >
             <Image src="/Galerie.png" alt="Exposition Maurice Rocher" fill className="object-contain" />
-          </div>
+          </div> */}
 
           {/* Two images side by side below */}
           <div className="grid w-full grid-cols-1 items-start gap-8 lg:grid-cols-2">
