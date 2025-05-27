@@ -59,12 +59,12 @@ export default function Home() {
                     ))}
                   </div>
 
-                  {/* Bottom row with 3 images */}
-                  <div className="grid grid-cols-3 gap-4">
-                    {[4, 5, 8].map((num) => (
+                  {/* Middle row with 2 images */}
+                  <div className="grid grid-cols-2 gap-4">
+                    {[4, 5].map((num) => (
                       <div
                         key={num}
-                        className="relative h-32 md:h-40 cursor-pointer"
+                        className="relative h-48 md:h-64 cursor-pointer"
                         onClick={() => openImage(num)}
                       >
                         <Image
@@ -76,15 +76,32 @@ export default function Home() {
                       </div>
                     ))}
                   </div>
+
+                  {/* Bottom row with 1 image */}
+                  <div className="grid grid-cols-1 gap-4">
+                    <div
+                      className="relative h-72 md:h-[85vh] cursor-pointer"
+                      onClick={() => openImage(6)}
+                    >
+                      <Image
+                        src="/vernissage/VERNISSAGE_6.jpg"
+                        alt="Gallery image 6"
+                        fill
+                        className="object-cover rounded-md transition-opacity duration-300 hover:opacity-60"
+                      />
+                    </div>
+                  </div>
                 </div>
-                <VideoPlayer />
+                <div className="flex flex-col items-center justify-center w-full  pb-12 pt-[14vh]">
+                  <VideoPlayer />
+                </div>
               </div>
 
               {/* Right column with text */}
               {/* <div className="w-full flex flex-col gap-4"> */}
 
                   <div className="flex flex-col w-full md:w-1/2 p-4">
-                  <div className="flex flex-col gap-4">
+                  <div className="flex flex-col gap-4 text-justify">
                     <h2 className="text-2xl font-bold mb-4">ARTEFACT FUTURIEL</h2>
                     <p className="mb-4">
                       Un des buts de l'exposition: attirer l'attention sur l'Art de Maurice Rocher pour les générations plus

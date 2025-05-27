@@ -20,7 +20,7 @@ const sections = [
   { id: 6, title: "Visages	vers	le	Ciel", description: "Colin Stetson - Spindrift.", src: "/song/Colin_Stetson_Spindrift.mp3" },
   { id: 7, title: "Masques", description: "G.Verdi - Falstaff - L.Bernstein 9. Del tuo barbaro diagnostico.", src: "/song/G_Verdi_Falstaff_L_Bernstein.mp3" },
   { id: 8, title: "Couples	de	la	Passion		Femmes	aux	Seins", description: "Symphonie n°9 adagio Gustav Malher Leonard Bernstein Wiener Philharmoniker.", src: "/song/GUSTAVMAHLER.mp3" },
-  { id: 9, title: "Suppliciés	'Je	les	peignais	en	alternance	avec	les	Couples.'	MR", description: "Découvrir avec la musique Sami Yusuf - Veritas (When Paths Meet).", src: "/song/SamiYusuf-Veritas.mp3" },
+  { id: 9, title: "Suppliciés	'Je	les	peignais	en	alternance	avec	les	Couples.'	MR", description: "Sami Yusuf - Veritas (When Paths Meet).", src: "/song/SamiYusuf-Veritas.mp3" },
   { id: 10, title: "Suppliciées	Ange	Noir	Couples	des	Cendres...	au	Supplicié-vitrail", description: "Вы, Ветры-Ветерочĸи Vous, Vents-Brises.", src: "/song/Ой_вы_ветры-ветерочки.mp3" },
 ]
 
