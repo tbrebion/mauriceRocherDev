@@ -59,29 +59,12 @@ export default function Home() {
                     ))}
                   </div>
 
-                  {/* Bottom row with 2 centered images */}
-                  <div className="flex justify-center gap-4">
-                    {[4, 5].map((num) => (
+                  {/* Bottom row with 3 images */}
+                  <div className="grid grid-cols-3 gap-4">
+                    {[4, 5, 8].map((num) => (
                       <div
                         key={num}
-                        className="relative h-32 md:h-60 w-full cursor-pointer"
-                        onClick={() => openImage(num)}
-                      >
-                        <Image
-                          src={`/vernissage/VERNISSAGE_${num}.jpg`}
-                          alt={`Gallery image ${num}`}
-                          fill
-                          className="object-cover rounded-md transition-opacity duration-300 hover:opacity-60"
-                        />
-                      </div>
-                    ))}
-                  </div>
-                                    {/* Bottom row with 2 centered images */}
-                                    <div className="flex justify-center gap-4">
-                    {[6].map((num) => (
-                      <div
-                        key={num}
-                        className="relative h-32 md:h-[50vh] w-full cursor-pointer"
+                        className="relative h-32 md:h-40 cursor-pointer"
                         onClick={() => openImage(num)}
                       >
                         <Image

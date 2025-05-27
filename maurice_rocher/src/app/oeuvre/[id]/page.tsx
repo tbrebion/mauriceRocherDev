@@ -1,25 +1,27 @@
+'use client'
 import Link from "next/link"
 import { MainNav } from "@/components/main-nav"
 import { Gallery } from "@/components/gallery"
 import { Metadata } from "next";
+import SimpleAudioPlayer from "@/components/audioPlayer";
 
-export const metadata: Metadata = {
-  title: "Oeuvres",
-  description: "Oeuvres de Maurice Rocher",
-};
+// export const metadata: Metadata = {
+//   title: "Oeuvres",
+//   description: "Oeuvres de Maurice Rocher",
+// };
 
 // This is now a static object instead of a function
 const sections = [
-  { id: 1, title: "Supplicié-vitrail	et	Vitraux", description: "The formative years of artistic exploration." },
-  { id: 2, title: "Période	Brune", description: "A journey into non-representational art." },
-  { id: 3, title: "Du Bouquet Rose au Rouge", description: "Inspired by the beauty of the natural world." },
-  { id: 4, title: "La	Révolte...	aux	Eglises-femme", description: "Capturing the essence of city life." },
-  { id: 5, title: "Notables", description: "Exploring the human form and expression." },
-  { id: 6, title: "Visages	vers	le	Ciel", description: "Pushing the boundaries of conventional art." },
-  { id: 7, title: "Masques", description: "Three-dimensional explorations of form." },
-  { id: 8, title: "Couples	de	la	Passion		Femmes	aux	Seins", description: "Embracing technology in artistic expression." },
-  { id: 9, title: "Suppliciés	'Je	les	peignais	en	alternance	avec	les	Couples.'	MR", description: "Works created with fellow artists." },
-  { id: 10, title: "Suppliciées	Ange	Noir	Couples	des	Cendres...	au	Supplicié-vitrail", description: "The latest creations and ongoing projects." },
+  { id: 1, title: "Supplicié-vitrail	et	Vitraux", description: "Chœur des moines de l’Abbaye de Solesmes - Noël: Matînes - Répons – Sancta.", src: "/song/ChoeurDesMoinesDeLAbbayeDeSolesmes.mp3" },
+  { id: 2, title: "Période	Brune", description: "Siguiriya Juan Romero Pantoja, guitarra Luis Morales.", src: "/song/SiguiriyasCruzadasDeJerez.mp3" },
+  { id: 3, title: "Du Bouquet Rose au Rouge", description: "Alim Qasimov Xatirǝdir Cri de Fête ou cri de douleur à Dieu.", src: "/song/Alim_Qasımov_Xatirədir.mp3" },
+  { id: 4, title: "La	Révolte...	aux	Eglises-femme", description: "Alim Qasimov Ayriliq Negmesi - Im Traum Wird Geschlafen.", src: "/song/Alim_Qasimov_Ayriliq_Negmesi_Im_Traum_Wird_Geschlafen.mp3" },
+  { id: 5, title: "Notables", description: "John Williams - Asturias (Isaac Albéniz).", src: "/song/John_Williams_Albeni_ Asturias.mp3" },
+  { id: 6, title: "Visages	vers	le	Ciel", description: "Colin Stetson - Spindrift.", src: "/song/Colin_Stetson_Spindrift.mp3" },
+  { id: 7, title: "Masques", description: "G.Verdi - Falstaff - L.Bernstein 9. Del tuo barbaro diagnostico.", src: "/song/G_Verdi_Falstaff_L_Bernstein.mp3" },
+  { id: 8, title: "Couples	de	la	Passion		Femmes	aux	Seins", description: "Symphonie n°9 adagio Gustav Malher Leonard Bernstein Wiener Philharmoniker.", src: "/song/GUSTAVMAHLER.mp3" },
+  { id: 9, title: "Suppliciés	'Je	les	peignais	en	alternance	avec	les	Couples.'	MR", description: "Découvrir avec la musique Sami Yusuf - Veritas (When Paths Meet).", src: "/song/SamiYusuf-Veritas.mp3" },
+  { id: 10, title: "Suppliciées	Ange	Noir	Couples	des	Cendres...	au	Supplicié-vitrail", description: "Вы, Ветры-Ветерочĸи Vous, Vents-Brises.", src: "/song/Ой_вы_ветры-ветерочки.mp3" },
 ]
 
 // This is now a static object with artworks for each section
@@ -1986,11 +1988,22 @@ export default function SectionPage({ params }: { params: { id: string } }) {
   return (
     <main className="min-h-screen bg-black text-white">
       <div className="pt-24">
-        <div className="mb-8 p-8">
+        <div className="mb-4 p-8">
           <Link href="/oeuvre" className="mb-4 inline-block text-sm text-gray-400 hover:text-white">
             ← Oeuvre
           </Link>
           <h1 className="mb-2 text-4xl font-light">{section.title}</h1>
+          <p className="text-gray-400">Découvrir avec la musique : {section.description}</p>
+
+          <div className="flex flex-col md:flex-row mt-8">
+            <div className="w-full flex items-center justify-center">
+              <SimpleAudioPlayer
+                src={section.src}
+                title={section.description}
+              />
+            </div>
+          </div>
+            
         </div>
         <Gallery artworks={artworks} />
       </div>
