@@ -156,9 +156,11 @@ export default function Home() {
 
             {/* Second image (original) - untouched */}
             <div className="relative h-[90vh] w-full">
-              <div className="flex flex-col items-center justify-center md:mt-24 mt-12">
-                <h2 className="text-2xl font-bold mb-4 text-center">L'ANGE NOIR</h2>
-                <Image src="/rubriques/ten/29_9.jpg" alt="Featured Artwork" fill className="object-contain md:mt-24 -mt-12" />
+              <div className="flex flex-col items-center justify-center h-full">
+                <h2 className="text-2xl font-bold md:mb-8 mb-0 text-center">L'ANGE NOIR</h2>
+                <div className="relative flex-1 w-full">
+                  <Image src="/rubriques/ten/29_9.jpg" alt="Featured Artwork" fill className="object-contain" />
+                </div>
               </div>
             </div>
             {/* <div className="flex flex-col md:flex-row h-[80vh] md:h-[80vh] w-full gap-4"> */}
