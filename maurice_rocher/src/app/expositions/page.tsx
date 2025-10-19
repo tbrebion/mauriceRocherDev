@@ -15,7 +15,7 @@ export default function Expositions() {
 
   return (
     <main className="flex flex-col h-full w-full bg-black text-white pt-8 pb-36">
-      <div className="flex-1 mx-auto w-full max-w-7xl pt-24">
+      <div className="flex-1 mx-auto w-full max-w-8xl pt-24 px-16">
           <h1 className="text-4xl md:text-5xl font-light px-8 mb-8">Expositions</h1>
 
           {/* <div className="p-6 mb-10">
@@ -97,41 +97,57 @@ export default function Expositions() {
       </div>
     </div> */}
 
-          <h2
+          {/* <h2
           className="text-3xl md:text-4xl font-light absolute px-8 mb-8 text-gray-300 md:ml-10"
         >
           Exposition en cours
-        </h2>        
-        <div className="w-full space-y-4 px-8 mt-24 mb-16">
+        </h2>         */}
 
+        <div className="grid w-full grid-cols-1 items-start gap-8 lg:grid-cols-2">
           <div
-            className="relative aspect-[4/3] w-full max-w-2xl mx-auto cursor-pointer transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl"
-            onClick={() => setSelectedImage("/Galerie.png")}
-          >
-            <Image src="/Galerie.png" alt="Exposition Maurice Rocher" fill className="object-contain" />
-          </div>
-
+              className="relative aspect-[5/4] w-full cursor-pointer transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl"
+              onClick={() => setSelectedImage("/expositions/expoTop2.jpg")}
+            >
+              <Image src="/expositions/expoTop2.jpg" alt="Exposition Maurice Rocher" fill className="object-contain" />
+            </div>
+          <div
+              className="relative aspect-[5/4] w-full cursor-pointer transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl"
+              onClick={() => setSelectedImage("/expositions/expoTop1.jpg")}
+            >
+              <Image src="/expositions/expoTop1.jpg" alt="Exposition Maurice Rocher" fill className="object-contain" />
+            </div>
         </div>
+
+
+        
         <h2
           className="text-3xl md:text-4xl font-light absolute px-8 mb-8 text-gray-300 md:ml-10"
         >
           Expositions passées
         </h2>  
-
-          <div className="grid w-full grid-cols-1 items-start gap-8 lg:grid-cols-2">
-            <div
-              className="relative aspect-[3/4] w-full cursor-pointer transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl"
-              onClick={() => setSelectedImage("/expositions/1_EXPOSITION.PNG")}
-            >
-              <Image src="/expositions/1_EXPOSITION.PNG" alt="Exposition Maurice Rocher" fill className="object-contain" />
+          
+          <div className="grid w-full grid-cols-1 items-start gap-8 my-16">
+              <div
+                className="relative aspect-[1/1] w-full cursor-pointer transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl max-w-3xl mx-auto"
+                onClick={() => setSelectedImage("/Galerie.png")}
+              >
+                <Image src="/Galerie.png" alt="Exposition Maurice Rocher" fill className="object-contain" />
+              </div>
             </div>
-            <div
-              className="relative aspect-[3/4] w-full cursor-pointer transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl"
-              onClick={() => setSelectedImage("/expositions/2_EXPOSITION.PNG")}
-            >
-              <Image src="/expositions/2_EXPOSITION.PNG" alt="Exposition Maurice Rocher" fill className="object-contain" />
+            <div className="grid w-full grid-cols-1 items-start gap-8 lg:grid-cols-2">
+              <div
+                className="relative aspect-[3/4] w-full cursor-pointer transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl"
+                onClick={() => setSelectedImage("/expositions/1_EXPOSITION.PNG")}
+              >
+                <Image src="/expositions/1_EXPOSITION.PNG" alt="Exposition Maurice Rocher" fill className="object-contain" />
+              </div>
+              <div
+                className="relative aspect-[3/4] w-full cursor-pointer transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl"
+                onClick={() => setSelectedImage("/expositions/2_EXPOSITION.PNG")}
+              >
+                <Image src="/expositions/2_EXPOSITION.PNG" alt="Exposition Maurice Rocher" fill className="object-contain" />
+              </div>
             </div>
-          </div>
 
         <div className="grid w-full grid-cols-1 md:grid-cols-2 items-start gap-8 px-8">
           {[3, 4, 5, 6].map((num) => (
