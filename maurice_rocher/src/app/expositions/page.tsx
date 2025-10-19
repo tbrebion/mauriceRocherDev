@@ -121,7 +121,7 @@ export default function Expositions() {
 
         
         <h2
-          className="text-3xl md:text-4xl font-light absolute px-8 mb-8 text-gray-300 md:ml-10"
+          className="text-3xl md:text-4xl font-light absolute px-8 mb-8 text-gray-300"
         >
           Expositions passées
         </h2>  
